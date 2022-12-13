@@ -1,0 +1,75 @@
+.headingText {
+  margin: 60px 0 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #182c62;
+}
+
+.scheduleTable {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td,
+tr,
+th {
+  padding: 0;
+  margin: 0;
+}
+
+.dateCol {
+width: 8%;
+}
+.stadiumCol{
+    width: 23%;
+}
+
+.homeTeamCol{ 
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.scoreCol{ 
+    width: 9%;
+    text-align: center;
+}
+
+.awayTeamCol{ 
+    width: 30%;
+    text-align: left;
+}
+
+.bodyRow {
+  text-align: left;
+  /* border: 1px solid #E4EDF2; */
+  height: 70px;
+  padding: 0;
+}
+.bodyRow:nth-child(2n) {
+    background-color: #F6F7F7;
+}
+thead {
+  text-align: left;
+  height: 40px;
+  background-color: #e4edf2;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+  .stadiumCol {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dateCol {
+    display: none;
+  }
+}

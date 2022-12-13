@@ -1,0 +1,17 @@
+.foot {
+    background-color: #F6F7F7;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footText {
+    padding-right: 40px;
+    color: #4B5C68;
+}
